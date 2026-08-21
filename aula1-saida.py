@@ -1,0 +1,1 @@
+print("Saída em Python");
