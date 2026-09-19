@@ -76,6 +76,17 @@ elif(IMC < 39.9):
     
 elif(IMC > 40):
     resultado = "Com obesidade Mórbida";
+    
+else:
+    resultado = "[ERRO] - DADOS INVÁLIDOS!"
 
 print(separador);
 print(f"Seu IMC é {IMC} | Resultado: Você está: {resultado}");
+
+#TERNÁRIO = PERMITE ATRIBUIR MAIS DE UM VALOR PELA CONDIÇÃO A UMA VARIÁVEL
+#EXPRESSÃO: variavel = resultadoSeVerdade if condicaoVerdade else ResultadoSeFalso
+
+print(separador);
+numero = int(input("Digite um número: "));
+par_ou_impar = "Par" if numero % 2 == 0 else "Impar";
+print(f"O número: {numero} é: {par_ou_impar}");
